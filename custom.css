@@ -39,66 +39,31 @@ header {
     float: left;
     box-sizing: border-box; }
   
-.borrar-curso {
-    background-color: red;
-    border-radius: 50%;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
 img{
     margin-top: 5px;
     width: 150px;
     height: 150px;
+    border: #36eb3f solid 2px;
+    border-radius: 8px;
 }
-ul {
-    list-style: none;
+.logo{
+    margin-top: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 180px;
+    border:#36eb3f solid 2px;
+    border-radius: 8px;
+    
+
 }
+
 #encabezado {
     margin: 30px 0;
-}
-.submenu {
-    position: relative;
-}
-
-.submenu #carrito{
-    display: none;
-}
-.submenu:hover #carrito{
-    display: block;
-    position: absolute;
-    right:0;
-
-    top:100%;
-    z-index: 1;
-    background-color: white;
-    padding: 20px;
-    min-height: 400px;
-    min-width: 300px;
-}
-.vacio {
-    padding: 10px;
-    background-color: crimson;
-    text-align: center;
-    border-radius: 10px;
-    color: white;
-}
-.contenido-hero {
-    margin-top: 80px;
-    color: white;
-}
-.contenido-hero form {
-    position: relative;
-    margin-bottom: 0;
+    
 }
 
 #lista-cursos .row {
     margin-bottom:20px;
-}
-.agregar-carrito {
-    margin:10px 0;
 }
 
 .card{
@@ -129,26 +94,14 @@ ul {
     font-size: 22px;
 }
 
-
-.footer {
-    margin-top: 40px;
-    border-top:1px solid #aaa;;
-    padding-top: 40px;   
-}
-.footer .menu a{
-display: block;
-margin-bottom: 10px;
-text-decoration: none;
-}
-a {
+ a {
     color: #266d23; }
   a:hover {
     color: #36eb3f; }
 
-    .button,button input{
+.button,button input{
 
-
-   display: inline-block;
+    display: inline-block;
     height: 38px;
     padding: 0 30px;
     text-align: center;
@@ -173,5 +126,6 @@ a {
         font-weight: 300; }
 
        
-
+ 
+ 
         
