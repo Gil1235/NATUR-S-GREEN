@@ -18,11 +18,8 @@ header {
     background: white;
     text-align: center;
 }
-@media (min-width: 750px) {
-    header {
-        text-align: left;
-    }
-}
+
+
 .container{
     
     position: relative;
@@ -69,11 +66,7 @@ img{
     border: 1px solid #e1e1e1;
     background: rgb(253, 253, 253);
 }
-@media (min-width: 550px) {
-    .card {
-        text-align: left;
-    }
-}
+
 .info-card  {
     padding: 10px 20px;
 }
